@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'polls.apps.PollsConfig', # 애플리케이션 추가
-    'books.apps.BooksConfig', # 애플리케이션 추가
+    #'books.apps.BooksConfig', # 애플리케이션 추가
+    'books',
 ]
 
 MIDDLEWARE = [
